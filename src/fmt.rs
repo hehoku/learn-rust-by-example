@@ -47,6 +47,7 @@ impl Display for Color {
     }
 }
 
+#[allow(dead_code)]
 pub fn test() {
     for city in [
         City {

@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 pub fn test() {
     // Integer addition
     println!("1 + 2 = {}", 1u32 + 2);
