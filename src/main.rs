@@ -1,3 +1,5 @@
+mod number;
+
 use std::fmt::{self, Display, Formatter};
 
 struct City {
@@ -88,4 +90,6 @@ fn main() {
         // for fmt::Display.
         println!("{}", color);
     }
+
+    number::test();
 }
