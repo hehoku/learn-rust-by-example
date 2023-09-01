@@ -5,6 +5,7 @@ fn analyze_slice(slice: &[i32]) {
     println!("the slice has {} elements", slice.len());
 }
 
+#[allow(dead_code)]
 pub fn test() {
     let xs: [i32; 5] = [1, 2, 3, 4, 5];
 
