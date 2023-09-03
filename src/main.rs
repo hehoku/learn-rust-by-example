@@ -1,4 +1,5 @@
 mod array;
+mod enums;
 mod fmt;
 mod number;
 mod structures;
@@ -9,5 +10,6 @@ fn main() {
     // number::test();
     // tuple::test();
     // array::test();
-    structures::test();
+    // structures::test();
+    enums::test();
 }
