@@ -18,6 +18,7 @@ fn inspect(event: WebEvent) {
     }
 }
 
+#[allow(dead_code)]
 pub fn test() {
     let pressed = WebEvent::KeyPress('X');
     let pasted = WebEvent::Paste("test".to_owned());
