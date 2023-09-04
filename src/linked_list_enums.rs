@@ -33,6 +33,7 @@ impl List {
     }
 }
 
+#[allow(dead_code)]
 pub fn test() {
     let mut list = List::new();
 
