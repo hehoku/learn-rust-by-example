@@ -2,6 +2,7 @@ mod array;
 mod enums;
 mod fmt;
 mod linked_list_enums;
+mod mutability;
 mod number;
 mod structures;
 mod tuple;
