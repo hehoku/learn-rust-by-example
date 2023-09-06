@@ -1,4 +1,5 @@
 mod array;
+mod cast;
 mod enums;
 mod fmt;
 mod linked_list_enums;
@@ -18,5 +19,6 @@ fn main() {
     // enums::test();
     // linked_list_enums::test();
     // variable_bindings::test();
-    shadowing::test();
+    // shadowing::test();
+    cast::test();
 }
